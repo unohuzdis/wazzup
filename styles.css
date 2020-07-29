@@ -1,0 +1,86 @@
+#toggleLogin {
+
+    padding-right: 15px;
+
+}
+
+#loginAlert {
+
+    display:none;
+
+}
+
+#tweetSuccess {
+
+    display:none;
+
+}
+
+#tweetFail {
+
+    display:none;
+
+}
+
+.mainContainer {
+
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.time {
+
+    color: lightgrey;
+    margin-left: 4px;
+
+}
+
+.tweet {
+
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+    padding: 15px 15px 5px 15px;
+    margin: 5px;
+    margin-bottom: 30px;
+    background-color: white;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.navcolor{
+    background-color: #4db6ac !important;
+    color: #ffffff !important;
+}
+
+button{
+    background-color: #4db6ac !important;
+    /*    border-color: #4db6ac !important;*/
+
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: rgba(158, 158, 158, 0.1) !important;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #4db6ac;
+    text-align: center;
+    color: white;
+}
